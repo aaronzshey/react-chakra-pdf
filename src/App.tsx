@@ -18,6 +18,7 @@ function MyDoc() {
 export default function App() {
   return (
     <div>
+      <Header />
       <PDFDownloadLink document={<MyDoc />} fileName="somename.pdf">
         Download
       </PDFDownloadLink>
